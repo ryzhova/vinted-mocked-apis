@@ -2,7 +2,7 @@
 name = "vinted-mocked-apis"
 version = "0.1.0"
 description = ""
-authors = ["DMA <digital-marketing-automation@xx.com>"]
+authors = ["DMA <digital-marketing-automation@vinted.com>"]
 readme = "README.md"
 requires-python = ">=3.10"
 
