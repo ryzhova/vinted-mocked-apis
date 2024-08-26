@@ -10,11 +10,11 @@ class GoogleAdsApiSimulator:
         self.version = "v11"
         self.api_key = api_key
 
-    def update_ad_budget(self,
-                         ad_id: str,
-                         asset_id: str,
-                         new_budget: float
-                         ) -> dict[str, Any]:
+    def update_asset_budget(self,
+                            ad_id: str,
+                            asset_id: str,
+                            new_budget: float
+                            ) -> dict[str, Any]:
 
         assert self.api_key, "Invalid API Key"
         time.sleep(random.uniform(3, 7))
