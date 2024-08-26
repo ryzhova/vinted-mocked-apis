@@ -51,7 +51,7 @@ class OpenAiImageAnalyzerSimulator:
             "tattoo": random.choice([True, False]),
             "overlay_text": random.choice([True, False]),
             "brand": random.choice([True, False]),
-            "cloth": random.choice([True, False])
+            "cloth": random.choice([True, False]),
         }
 
         # Decide randomly whether to return a well-formed or malformed JSON
